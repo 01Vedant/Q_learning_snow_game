@@ -13,7 +13,9 @@ This does not include dependencies for all families of environments (there's a m
 ## API
 The Gym API's API models environments as simple Python env classes. Creating environment instances and interacting with them is very simple- here's an example using the "CartPole-v0" environment:
 
-![]{https://www.codegrepper.com/codeimages/openai-gym-tutorial-pdf.png}
+import gym 
+
+env = gym.make('CartPole-v1')
 
 
         
